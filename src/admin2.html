@@ -5,9 +5,9 @@
 
   <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.0/dist/av-min.js"></script>
 
-  <script src="../node_modules/qiniu-js/dist/qiniu.min.js"></script>
+  <script src="../vendors/qiniu.min.js"></script>
   <script src="../vendors/moxie.js"></script>
-  <script src="../node_modules/plupload/js/plupload.min.js"></script>
+  <script src="../vendors/plupload.min.js"></script>
 
   <title>上传歌曲</title>
 
@@ -28,7 +28,7 @@
 
     #yyy > #xxx {
       padding: 3px;
-      border: 1px solid skyblue;
+      border: 1px dashed #99C8DB;
       border-radius: 5px;
       cursor: pointer;
 
@@ -38,7 +38,8 @@
       /*background-color: red;*/
       margin-bottom: -5px;
     }
-    #yyy> .notes{
+
+    #yyy > .notes {
       font-size: 12px;
     }
   </style>
